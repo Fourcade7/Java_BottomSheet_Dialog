@@ -33,6 +33,21 @@
         });
      }
     }
+    
+    
+//res/drawable/backgroundsheet
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle"
+            >
+
+            <solid android:color="@android:color/white"></solid>
+
+            <corners
+                android:topRightRadius="35dp"
+                android:topLeftRadius="35dp"></corners>
+        </shape>
 
 
 //res/layout/layoutbottomsheet
