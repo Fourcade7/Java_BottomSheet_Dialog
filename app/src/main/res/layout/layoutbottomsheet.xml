@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/linearlay1"
+    android:background="@drawable/backgroundsheet"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Bottom Sheet is a component that slides up from the bottom of the screen having multiple options. Here are the examples of the Bottom sheet from apps"
+        ></TextView>
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        ></ImageView>
+
+</LinearLayout>
